@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "style-tracking-reverse-diffusion"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "strd"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+data_tree = { git = "https://github.com/proboscis/data_tree.git", rev = "v1.1.2" }
+albumentations = "0.4.3"
+diffusers = "0.12.1"
+pudb = "2019.2"
+#invisible-watermark = "*"
+imageio = "2.9.0"
+imageio-ffmpeg = "0.4.2"
+pytorch-lightning = "1.4.2"
+omegaconf = "2.1.1"
+test-tube = "^0.7.5"
+streamlit = "^0.73.1"
+einops = "0.3.0"
+torch-fidelity = "0.3.0"
+transformers = "4.19.2"
+torchmetrics = "0.6.0"
+# tokenizers require a rust compiler
+tokenizers="0.12.1"
+latent-diffusion = {git="https://github.com/CompVis/stable-diffusion.git",rev="21f890f"}
+torch = "^2.0.1"
+ray = "^2.5.1"
+frozendict = "^2.3.8"
+pyyaml = "^6.0"
+jupyter = "^1.0.0"
+pydantic = "1.10.11"
+fire = "^0.5.0"
+pinject-design = "^0.1.99"
+pillow = "^10.0.0"
+py-omni-converter = "^0.1.24"
+omni-cv-rules = "^0.1.15"
+wandb = "^0.15.5"
+torchvision = "^0.15.2"
+ray-proxy = "^0.1.7"
+lightning-fabric = "^2.0.5"
+clip = "^0.2.0"
+kornia = "^0.6.12"
+rx = "^3.2.0"
+taming-transformers-rom1504 = "^0.0.6"
+gradio = "^3.36.1"
+#gradio = "3.9.0"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

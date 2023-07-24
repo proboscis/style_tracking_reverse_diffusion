@@ -1,0 +1,70 @@
+.DS_Store
+##############
+# python
+##############
+*/__pycache__/
+.pyc
+*.pyc
+*.egg-info/
+.pkl
+*.so
+build/
+*.c
+dist/
+*.pkl
+tests/.pytest_cache/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints
+/notes/**/*.html
+/gathered_notes/**
+
+#################
+# emacs
+#################
+
+\#*
+
+*.db
+
+###
+# HDF5
+###
+*.hdf5
+
+hdfjava/
+*checkpoint.ipynb
+#################
+# Intellij and customs
+#################
+# Intellij
+.idea
+.idea/
+.idea_modules/
+*.iml
+*.iws
+#log
+*.log
+#generated
+.changed/
+*.bak
+*.dat
+*.dir
+cache/
+###############
+# KEYS
+###############
+api_keys/
+*.key
+*.ca
+*.crt
+*.ovpn
+# docker/ansible
+*.retry
+.vagrant/
+######
+# else
+######
+*.lock
+*.jar
+
+sources/
