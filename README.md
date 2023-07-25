@@ -8,7 +8,7 @@ make install
 ```
 
 # Introduction
-
+This implementation provides a way to do style transfer with pre-trained stable diffusion model without fine-tuning.
 
 ## Link to a paper
 Coming soon.
